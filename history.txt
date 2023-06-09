@@ -1,0 +1,476 @@
+    1  adduser ies
+    2  usermod -aG sudo  ies
+    3  vi /etc/ssh/sshd_config
+    4  service sshd restart
+    5  exit
+    6  docker ps
+    7  docker commit 051a93647899348c9349050f4346f09932b9940ebd84a0db1a36f4b03b0a6008/layer.tar
+    8  docker  commit 73e382add6ed
+    9  docker inages
+   10  dockerimages
+   11  docker images
+   12  docker tag 4b8224ba091a ffmpeg-cuda:4
+   13  docker run ffmpeg-cuda:4
+   14  cd ffmpeg-docker/
+   15  vi Dockerfile.ubuntu 
+   16  docker images
+   17  vi Dockerfile.ubuntu 
+   18  cd ..
+   19  rm -rf ffmpeg-docker
+   20  ls -l
+   21  exit
+   22  docker ps
+   23  cat /etc/os-release 
+   24  apt-get update
+   25  apt-get install     ca-certificates     curl     gnupg     lsb-release
+   26  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+   27  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu \
+   28    $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+   29  ps axww
+   30  git clone https://github.com/AkashiSN/ffmpeg-docker.git
+   31  cd ffmpeg-docker/
+   32  touch cuda_11.5.0_495.46_windows.exe # dummy file
+   33  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   34  vi nonfree.Dockerfile 
+   35  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   36  vi nonfree.Dockerfile 
+   37  touch cuda_11.6.0_511.23_windows.exe # dummy file
+   38  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   39  vi scripts/base.sh 
+   40  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   41  vi nonfree.Dockerfile 
+   42  vi scripts/build-ffmpeg.sh 
+   43  cat nonfree.Dockerfile 
+   44  vi  nonfree.Dockerfile 
+   45  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   46  vi  nonfree.Dockerfile 
+   47  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   48  docker  build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   49  vi  nonfree.Dockerfile 
+   50  docker  build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   51  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   52  cd ..
+   53  rm -rf ffmpeg-docker/
+   54  git clone https://github.com/AkashiSN/ffmpeg-docker.git
+   55  cd ffmpeg-docker/
+   56  vi nonfree.Dockerfile 
+   57  vi scripts/build-ffmpeg.sh 
+   58  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   59  touch cuda_11.5.0_495.46_windows.exe
+   60  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   61  vi scripts/build-ffmpeg.sh 
+   62  cat scripts/base.sh 
+   63  vi scripts/base.sh 
+   64  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   65  vi scripts/base.sh 
+   66  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   67  vi scripts/build-ffmpeg.sh 
+   68  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   69  vi scripts/build-ffmpeg.sh 
+   70  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   71  curl -LO https://ffmpeg.org/releases/ffmpeg-5.0.1.tar.xz
+   72  tar xvf ffmpeg-5.0.1.tar.xz 
+   73  vi scripts/build-ffmpeg.sh 
+   74  curl -LO https://ffmpeg.org/releases/ffmpeg-5.0.1.tar.xz
+   75  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   76  vi scripts/build-ffmpeg.sh 
+   77  cat nonfree.Dockerfile 
+   78  vi scripts/build-ffmpeg.sh 
+   79  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   80  vi scripts/base.sh 
+   81  vi scripts/build-ffmpeg.sh 
+   82  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   83  vi scripts/build-ffmpeg.sh 
+   84  vi nonfree.Dockerfile 
+   85  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   86  vi scripts/build-ffmpeg.sh 
+   87  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   88  vi scripts/build-ffmpeg.sh 
+   89  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   90  vi scripts/build-ffmpeg.sh 
+   91  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   92  vi scripts/build-ffmpeg.sh 
+   93  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   94  vi scripts/build-ffmpeg.sh 
+   95  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   96  vi scripts/build-ffmpeg.sh 
+   97  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+   98  grep ffmpeg_extra_libs *
+   99  vi Dockerfile 
+  100  docker buildx build --output type=local,dest=build -t ffmpeg:linux  .
+  101  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+  102  vi scripts/build-ffmpeg.sh 
+  103  vi nonfree.Dockerfile 
+  104  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+  105  vi nonfree.Dockerfile 
+  106  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+  107  vi nonfree.Dockerfile 
+  108  vi scripts/build-ffmpeg.sh 
+  109  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+  110  vi scripts/build-ffmpeg.sh 
+  111  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+  112  vi scripts/build-ffmpeg.sh 
+  113  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+  114  vi scripts/build-ffmpeg.sh 
+  115  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+  116  vi scripts/build-ffmpeg.sh 
+  117  vi scripts/base.sh 
+  118  vi scripts/build-ffmpeg.sh 
+  119  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+  120  vi scripts/build-ffmpeg.sh 
+  121  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+  122  vi scripts/build-ffmpeg.sh 
+  123  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+  124  vi scripts/build-ffmpeg.sh 
+  125  vi scripts/base.sh 
+  126  vi nonfree.Dockerfile 
+  127  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+  128  vi nonfree.Dockerfile 
+  129  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+  130  vi nonfree.Dockerfile 
+  131  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+  132  vi nonfree.Dockerfile 
+  133  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile .
+  134  docker imnages
+  135  docker images
+  136  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile . 
+  137  docker run ffmpeg-nonfree:linux
+  138  vi nonfree.Dockerfile 
+  139  ls -lt
+  140  docker buildx build  -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile . 
+  141  docker images
+  142  docker run ffmpeg-nonfree:linux
+  143  docker run ffmpeg-nonfree:linux ffmpeg
+  144  docker run ffmpeg-nonfree:linux tail
+  145  docker run ffmpeg-nonfree:linux /build/ffmpeg
+  146  vi nonfree.Dockerfile 
+  147  docker run ffmpeg-nonfree:linux /ffmpeg
+  148  vi nonfree.Dockerfile 
+  149  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile . 
+  150  vi nonfree.Dockerfile 
+  151  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile . 
+  152  cat Dockerfile 
+  153  cat scripts/base.sh 
+  154  vi scripts/build-ffmpeg.sh 
+  155  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile . 
+  156  docker inages
+  157  docker images
+  158  docker buildx build --output type=local -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile . 
+  159  docker buildx build  -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile . 
+  160  docker images
+  161  docker run -it ffmpeg-nonfree:linux
+  162  docker run -it ffmpeg-nonfree:linux ls
+  163  vi Dockerfile 
+  164  vi nonfree.Dockerfile 
+  165  docker buildx build  -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile . 
+  166  vi nonfree.Dockerfile 
+  167  docker buildx build  -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile . 
+  168  vi nonfree.Dockerfile 
+  169  cat  nonfree.Dockerfile 
+  170  vi Dockerfile.ubuntu
+  171  vi   nonfree.Dockerfile 
+  172  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile . 
+  173  vi   nonfree.Dockerfile 
+  174  vi   Dockerfile.ubuntu 
+  175  docker build -f    Dockerfile.ubuntu  -t ffmpegcuda:5 .
+  176  docker images
+  177  vi   Dockerfile.ubuntu 
+  178  docker images
+  179  docker build -f    Dockerfile.ubuntu  -t ffmpegcuda:5 .
+  180  vi Dockerfile
+  181  vi nonfree.Dockerfile 
+  182  vi   Dockerfile.ubuntu 
+  183  docker build -f    Dockerfile.ubuntu  -t ffmpegcuda:5 .
+  184  vi   Dockerfile.ubuntu 
+  185  vi nonfree.Dockerfile 
+  186  docker buildx build  -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile . 
+  187  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile . 
+  188  vi nonfree.Dockerfile 
+  189  docker buildx build --output type=local,dest=build -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile . 
+  190  docker build -f    Dockerfile.ubuntu  -t ffmpegcuda:5 .
+  191  vi Dockerfile.ubuntu 
+  192  docker build -f    Dockerfile.ubuntu  -t ffmpegcuda:5 .
+  193  docker create --name="tmp_$$" ffmpeg-nonfree:linux
+  194  docker create --name="aaa" ffmpeg-nonfree:linux
+  195  docker create --name="aaa" ffmpeg-nonfree
+  196  docker export  ffmpeg-nonfree:linux -o foo.tar
+  197  docker images
+  198  docker export  aa540851b176 -o foo.tar
+  199  docker save ffmpeg-nonfree:linux  > ffmpeg.tar 
+  200  tar ztvf ffmpeg
+  201  tar ztvf ffmpeg.tar 
+  202  tar tvf ffmpeg.tar 
+  203  tar xvf ffmpeg.tar 
+  204  tar tvf 07c2828b533a3782de9a7e76f2eca328cc2cd40fe47775b0b35a54645cd2f4bf/layer.tar
+  205  vi Dockerfile.ubuntu 
+  206  docker build -f    Dockerfile.ubuntu  -t ffmpegcuda:5 .
+  207  vi Dockerfile.ubuntu 
+  208  docker build -f    Dockerfile.ubuntu  -t ffmpegcuda:5 .
+  209  docker run ffmpegcuda:5
+  210  tar ztvf 07c2828b533a3782de9a7e76f2eca328cc2cd40fe47775b0b35a54645cd2f4bf/layer.tar
+  211  tar tvf 07c2828b533a3782de9a7e76f2eca328cc2cd40fe47775b0b35a54645cd2f4bf/layer.tar
+  212  docker run -it --entrypoint /bin/bash ffmpegcuda:5
+  213  vi Dockerfile.ubuntu 
+  214  gzip 07c2828b533a3782de9a7e76f2eca328cc2cd40fe47775b0b35a54645cd2f4bf/layer.tar
+  215  ls -l 07c2828b533a3782de9a7e76f2eca328cc2cd40fe47775b0b35a54645cd2f4bf/layer.tar.gz 
+  216  vi Dockerfile.ubuntu 
+  217  docker build -f    Dockerfile.ubuntu  -t ffmpegcuda:5 .
+  218  docker run ffmpegcuda:5
+  219  docker run--entrypint /bin/bash -it  ffmpegcuda:5
+  220  docker run --entrypint /bin/bash -it  ffmpegcuda:5
+  221  docker run --entrypoint /bin/bash -it  ffmpegcuda:5
+  222  vi Dockerfile.ubuntu 
+  223  mkdir builded
+  224  cd builded
+  225  tar ztvf ../07c2828b533a3782de9a7e76f2eca328cc2cd40fe47775b0b35a54645cd2f4bf/layer.tar.gz
+  226  cd ..
+  227  cp 07c2828b533a3782de9a7e76f2eca328cc2cd40fe47775b0b35a54645cd2f4bf/layer.tar.gz layer.tar.gz
+  228  ls -l
+  229  rm -rf ffmpeg-5.0.1
+  230  rm -rf ffmpeg-5.0.1.tar.xz
+  231  vi Dockerfile.ubuntu 
+  232  docker build -f    Dockerfile.ubuntu  -t ffmpegcuda:5 .
+  233  dicker run -it ffmpegcuda:5 
+  234  docker run -it ffmpegcuda:5 
+  235  docker run -it ffmpegcuda:5 --entrypoint /bin/bash
+  236  docker run --entrypoint /bin/bash -it ffmpegcuda:5 
+  237  docker run --entrypoint /bin/bash -it ubuntu:20.04
+  238  cp layer.tar.gz /tmp/
+  239  docker run -v /tmp:/tmp  --entrypoint /bin/bash -it ubuntu:20.04
+  240  vi nonfree.Dockerfile 
+  241  docker buildx build  -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile . 
+  242  vi nonfree.Dockerfile 
+  243  docker buildx build  -t ffmpeg-nonfree:linux -f ./nonfree.Dockerfile . 
+  244  docker save ffmpeg-nonfree:linux  > ffmpeg.tar 
+  245  unzip ffmpeg.tar 
+  246  tar xvf  ffmpeg.tar 
+  247  cp -a 051a93647899348c9349050f4346f09932b9940ebd84a0db1a36f4b03b0a6008/layer.tar layer.tar
+  248  docker run -v /tmp:/tmp  --entrypoint /bin/bash -it ubuntu:20.04
+  249  cp layer.tar /tmp/
+  250  docker run -v /tmp:/tmp  --entrypoint /bin/bash -it ubuntu:20.04
+  251  docker buildx build  -t docker-registry.tngrm.io:ffmpeg-cuda:5 -f Dockerfile.ubuntu  . 
+  252  docker buildx build  -t docker-registry.tngrm.io/ffmpeg-cuda:5 -f Dockerfile.ubuntu  . 
+  253  docker run docker-registry.tngrm.io/ffmpeg-cuda:5
+  254  docker push  docker-registry.tngrm.io/ffmpeg-cuda:5
+  255  ls
+  256  cd ..
+  257  vi Dockerfile.ubuntu
+  258  docker images
+  259  vi Dockerfile.ubuntu 
+  260  docker build -f Dockerfile.ubuntu -t docker-registry.tngrm.io/ffmpeg-cuda:5  .
+  261  docker run docker-registry.tngrm.io/ffmpeg-cuda:5
+  262  docker run docker-registry.tngrm.io/ffmpeg-cuda:5 --codecs
+  263  docker run docker-registry.tngrm.io/ffmpeg-cuda:5 -codecs
+  264  docker run docker-registry.tngrm.io/ffmpeg-cuda:5 -encoders
+  265  docker push  docker-registry.tngrm.io/ffmpeg-cuda:5 <
+  266  docker push  docker-registry.tngrm.io/ffmpeg-cuda:5 
+  267  docker run docker-registry.tngrm.io/ffmpeg-cuda:5 
+  268  docker push  docker-registry.tngrm.io/ffmpeg-cuda:5 
+  269  apt-get install extundelete
+  270  cat /etc/fstab 
+  271  fdisk -l
+  272  history > /root/sto.txt
+  273  extundelete --restore-directory /home/ies/ffmpeg-docker/ /dev/nvme0n1p1
+  274  less /root/sto.txt 
+  275  find /var/lib/docker/ | grep "libnpp*"
+  276  find /var/lib/docker/ | grep "libnpp*" | grep pc
+  277  find /var/lib/docker/ | grep "libnpp*" | grep ".pc"
+  278  find /var/lib/docker/ | grep "libnpp*" | grep "\.pc"
+  279  ls /root/
+  280  git clone https://github.com/AkashiSN/ffmpeg-docker.git
+  281  cd ffmpeg-docker/
+  282  vi nonfree.Dockerfile 
+  283  vi Dockerfile 
+  284  vi scripts/base.sh 
+  285  vi scripts/build-ffmpeg.sh 
+  286  docker build .
+  287  history
+  288  docker buildx build --output type=local,dest=build -t ffmpeg:linux  .
+  289  docker buildx build -f nonfree.Dockerfile --output type=local,dest=build -t ffmpeg:linux-nonfree  .
+  290  touch cuda_11.5.0_495.46_windows.exe
+  291  docker buildx build -f nonfree.Dockerfile --output type=local,dest=build -t ffmpeg:linux-nonfree  .
+  292  vi scripts/build-ffmpeg.sh 
+  293  docker buildx build -f nonfree.Dockerfile --output type=local,dest=build -t ffmpeg:linux-nonfree  .
+  294  cat nonfree.Dockerfile 
+  295  vi nonfree.Dockerfile 
+  296  docker buildx build -f nonfree.Dockerfile --output type=local,dest=build -t ffmpeg:linux-nonfree  .
+  297  vi scripts/build-ffmpeg.sh 
+  298  vi scripts/base.sh 
+  299  docker buildx build -f nonfree.Dockerfile --output type=local,dest=build -t ffmpeg:linux-nonfree  .
+  300  vi nonfree.Dockerfile 
+  301  vi scripts/build-ffmpeg.sh 
+  302  docker buildx build -f nonfree.Dockerfile --output type=local,dest=build -t ffmpeg:linux-nonfree  .
+  303  vi scripts/build-ffmpeg.sh 
+  304  docker buildx build -f nonfree.Dockerfile --output type=local,dest=build -t ffmpeg:linux-nonfree  .
+  305  vi nonfree.Dockerfile 
+  306  docker buildx build -f nonfree.Dockerfile --output type=local,dest=build -t ffmpeg:linux-nonfree  .
+  307  vi nonfree.Dockerfile 
+  308  docker buildx build -f nonfree.Dockerfile --output type=local,dest=build -t ffmpeg:linux-nonfree  .
+  309  cat Dockerfile 
+  310  vi nonfree.Dockerfile 
+  311  grep -i compute *
+  312  cat nonfree.Dockerfile
+  313  vi nonfree.Dockerfile 
+  314  docker buildx build -f nonfree.Dockerfile --output type=local,dest=build -t ffmpeg:linux-nonfree  .
+  315  vi nonfree.Dockerfile 
+  316  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  317  docker images
+  318  vi Dockerfile.ubuntu
+  319  cat Dockerfile
+  320  vi Dockerfile.ubuntu
+  321  docker buildx build -f Dockerfile.ubuntu  -t interm-cuda  .
+  322  docker images
+  323  docker save ffmpeg:5 archive.tar 
+  324  docker save ffmpeg:5 -o archive.tar 
+  325  tar tvf archive.tar 
+  326  tar xvf archive.tar 
+  327  cd /tmp/
+  328  mkdir build
+  329  cd build/
+  330  cd ..
+  331  tar xvf /home/ies/ffmpeg-docker/f9e00819566086345bb010fe3b9c3d1adfe7196860579be710063a112037024e/layer.tar
+  332  docker  run --entrypoint /bin/bash  -it interm-cuda 
+  333  docker  run -v /tmp:/tmp  --entrypoint /bin/bash  -it interm-cuda 
+  334  cd
+  335  cd 
+  336  exit
+  337  cd ffmpeg-docker/
+  338  cat scripts/build-library.sh 
+  339  cat scripts/build-library.sh  | grep FFMPEG_CONFIGURE_OPTIONS
+  340  vi scripts/build-ffmpeg.sh 
+  341  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  342  vi scripts/build-ffmpeg.sh 
+  343  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  344  vi scripts/build-ffmpeg.sh 
+  345  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  346  vi scripts/build-ffmpeg.sh 
+  347  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  348  vi scripts/build-ffmpeg.sh 
+  349  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  350  cat scripts/build-library.sh 
+  351  vi nonfree.Dockerfile 
+  352  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  353  vi nonfree.Dockerfile 
+  354  vi scripts/build-ffmpeg.sh 
+  355  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  356  vi scripts/build-ffmpeg.sh 
+  357  vi nonfree.Dockerfile 
+  358  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  359  vi nonfree.Dockerfile 
+  360  vi scripts/build-library.sh 
+  361  vi nonfree.Dockerfile 
+  362  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  363  vi nonfree.Dockerfile 
+  364  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  365  cat scripts/build-library.sh 
+  366  cp  scripts/build-library.sh scripts/build-tools.sh
+  367  vi scripts/build-tools.sh 
+  368  vi nonfree.Dockerfile 
+  369  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  370  vi scripts/build-tools.sh 
+  371  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  372  vi scripts/build-tools.sh 
+  373  vi nonfree.Dockerfile 
+  374  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  375  vi scripts/build-tools.sh 
+  376  vi nonfree.Dockerfile 
+  377  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  378  vi scripts/build-tools.sh 
+  379  vi nonfree.Dockerfile 
+  380  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  381  vi scripts/build-ffmpeg.sh 
+  382  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  383  vi scripts/build-ffmpeg.sh 
+  384  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  385  vi scripts/build-ffmpeg.sh 
+  386  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  387  vi scripts/build-ffmpeg.sh 
+  388  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  389  vi scripts/build-ffmpeg.sh 
+  390  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  391  cat Dockerfile
+  392  cat scripts/build-library.sh 
+  393  vi scripts/build-tools.sh 
+  394  vi scripts/build-ffmpeg.sh 
+  395  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  396  vi nonfree.Dockerfile 
+  397  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  398  docker images
+  399  docker save ffmpeg:5 -o archive.tar 
+  400  tar xvf archive.tar 
+  401  ls /home/ies/ffmpeg-docker/3c8050f3c1d7ace7f977a3b7eb5e0e26181ba65977138c7d5352d44431313edd/layer.tar
+  402  cd /tmp/build/
+  403  tar xvf /home/ies/ffmpeg-docker/3c8050f3c1d7ace7f977a3b7eb5e0e26181ba65977138c7d5352d44431313edd/layer.tar
+  404  cd /home/ies/ffmpeg-docker/
+  405  docker  run -v /tmp:/tmp  --entrypoint /bin/bash  -it interm-cuda 
+  406  vi rm -rf 3c8050f3c1d7ace7f977a3b7eb5e0e26181ba65977138c7d5352d44431313edd/
+  407  rm -rf f8d840d2e9c03d77c68cef87b887c382b119e566c9ebce8198a59aee1e28e138.json 
+  408  rm -rf f9e00819566086345bb010fe3b9c3d1adfe7196860579be710063a112037024e
+  409  df -h
+  410  ls -l
+  411  rm e80fc26768ea6d6e8a3f03c2db0f8dc23632c6de8bcab3568c180279ddc14428
+  412  rm e80fc26768ea6d6e8a3f03c2db0f8dc23632c6de8bcab3568c180279ddc14428.json 
+  413  ls build/
+  414  ls -l
+  415  find build/
+  416  ls -l
+  417  vi Dockerfile.ubuntu 
+  418  docker inages
+  419  docker images
+  420  docker run -it docker-registry.tngrm.io/ffmpeg5-cuda:5.1.2
+  421  docker run -it docker-registry.tngrm.io/ffmpeg5-cuda:5.1.2 /usr/local/bin/ffmpeg
+  422  vi Dockerfile.ubuntu 
+  423  docker build -f Dockerfile.ubuntu -t interm-cuda:latest
+  424  docker build -f Dockerfile.ubuntu -t interm-cuda:latest .
+  425  docker  run -v /tmp:/tmp  --entrypoint /bin/bash  -it interm-cuda 
+  426  docker save ffmpeg:5 -o archive.tar 
+  427  tar xvf archive.tar 
+  428  cd /tmp/build/
+  429  tar xvf /home/ies/ffmpeg-docker/3c8050f3c1d7ace7f977a3b7eb5e0e26181ba65977138c7d5352d44431313edd/layer.tar
+  430  cd /home/ies/ffmpeg-docker/
+  431  docker  run -v /tmp:/tmp  --entrypoint /bin/bash  -it interm-cuda 
+  432  vi Dockerfile.ubuntu 
+  433  docker build -f  Dockerfile.ubuntu . -t docker-registry.tngrm.io/ffmpeg5-cuda:5.1.2
+  434  vi Dockerfile.ubuntu 
+  435  docker build -f  Dockerfile.ubuntu . -t docker-registry.tngrm.io/ffmpeg5-cuda:5.1.2
+  436  vi Dockerfile.ubuntu 
+  437  cat nonfree.Dockerfile 
+  438  vi Dockerfile.ubuntu 
+  439  docker build -f  Dockerfile.ubuntu . -t docker-registry.tngrm.io/ffmpeg5-cuda:5.1.2
+  440  docker run docker-registry.tngrm.io/ffmpeg5-cuda:5.1.2
+  441  docker run docker-registry.tngrm.io/ffmpeg5-cuda:5.1.2 
+  442  docker images
+  443  docker run -it docker-registry.tngrm.io/ffmpeg5-cuda:5.1.2 ffmpeg -re -i  video.mp4  -acodec copy -vcodec copy -pes_payload_size 0 -strict -2 -y -f mpegts 'srt://ms8.tngrm.io:10080?streamid=#!::h=gpu-b-c2-12,r=live/live,m=publish,token=5a939bdd-b6fe-4013-9932-b11cd30370a6'
+  444  docker run -it docker-registry.tngrm.io/ffmpeg5-cuda:5.1.2 ffmpeg -re -i  /home/ies/video.mp4  -acodec copy -vcodec copy -pes_payload_size 0 -strict -2 -y -f mpegts 'srt://ms8.tngrm.io:10080?streamid=#!::h=gpu-b-c2-12,r=live/live,m=publish,token=5a939bdd-b6fe-4013-9932-b11cd30370a6'
+  445  docker run -it docker-registry.tngrm.io/ffmpeg5-cuda:5.1.2 ffmpeg -re -i  /home/ies/istrefi.mp4  -acodec copy -vcodec copy -pes_payload_size 0 -strict -2 -y -f mpegts 'srt://ms8.tngrm.io:10080?streamid=#!::h=gpu-b-c2-12,r=live/live,m=publish,token=5a939bdd-b6fe-4013-9932-b11cd30370a6'
+  446  docker run  -v  /home/ies/istrefi.mp4:/tmp/video.mp4  -it docker-registry.tngrm.io/ffmpeg5-cuda:5.1.2 ffmpeg -re -i /tmp/video.mp4   -acodec copy -vcodec copy -pes_payload_size 0 -strict -2 -y -f mpegts 'srt://ms8.tngrm.io:10080?streamid=#!::h=gpu-b-c2-12,r=live/live,m=publish,token=5a939bdd-b6fe-4013-9932-b11cd30370a6'
+  447  docker run  -v  /home/ies/istrefi.mp4:/tmp/video.mp4  -it docker-registry.tngrm.io/ffmpeg5-cuda:5.1.2 ffmpeg -re -i /tmp/video.mp4 -acodec copy -vcodec copy -pes_payload_size 0 -strict -2 -y -f mpegts 'srt://ms8.tngrm.io:10080?streamid=#!::h=gpu-b-c2-12,r=live/live,m=publish,token=5a939bdd-b6fe-4013-9932-b11cd30370a6'
+  448  docker run  -v  /home/ies/istrefi.mp4:/tmp/video.mp4  -it docker-registry.tngrm.io/ffmpeg5-cuda:5.1.2 ffmpeg 
+  449  docker run  -v  /home/ies/istrefi.mp4:/tmp/video.mp4  -it docker-registry.tngrm.io/ffmpeg5-cuda:5.1.2 
+  450  docker run  -v  /home/ies/istrefi.mp4:/tmp/video.mp4  -it docker-registry.tngrm.io/ffmpeg5-cuda:5.1.2  -re -i /tmp/video.mp4 -acodec copy -vcodec copy -pes_payload_size 0 -strict -2 -y -f mpegts 'srt://ms8.tngrm.io:10080?streamid=#!::h=gpu-b-c2-12,r=live/live,m=publish,token=5a939bdd-b6fe-4013-9932-b11cd30370a6'
+  451  ls -l
+  452  rm archive.tar
+  453  rm -rf 3c8050f3c1d7ace7f977a3b7eb5e0e26181ba65977138c7d5352d44431313edd
+  454  rm -rf build
+  455  cd ..
+  456  du -hs ffmpeg-docker
+  457  history > ffmpeg-docker/history.txt
+  458  docker images
+  459  docker push docker-registry.tngrm.io/ffmpeg5-cuda:5.1.2
+  460  cd ffmpeg-docker/
+  461  vi scripts/build-tools.sh 
+  462  docker buildx build -f nonfree.Dockerfile -t ffmpeg:5  .
+  463  docker save ffmpeg:5 -o archive.tar 
+  464  tar xvf archive.tar 
+  465  cd /tmp/build/
+  466  tar xvf /home/ies/ffmpeg-docker/a542bca8aa65e82d20f73ec15c80129b2e59e7fe7c7926075cde35c30e389db8/layer.tar
+  467  cd /home/ies/ffmpeg-docker/
+  468  docker images
+  469  docker  run -v /tmp:/tmp  --entrypoint /bin/bash  -it interm-cuda 
+  470  docker build -f  Dockerfile.ubuntu . -t docker-registry.tngrm.io/ffmpeg5-cuda:5.1.2
+  471  docker run docker-registry.tngrm.io/ffmpeg5-cuda:5.1.2
+  472  docker push  docker-registry.tngrm.io/ffmpeg5-cuda:5.1.2
+  473  ls -l
+  474  rm -rf a542bca8aa65e82d20f73ec15c80129b2e59e7fe7c7926075cde35c30e389db8
+  475  rm archive.tar
+  476  history > history.txt 

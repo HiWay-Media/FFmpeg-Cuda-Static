@@ -1,0 +1,12 @@
+FROM pippo as ffmpeg
+
+ENV DEBIAN_FRONTEND=noninteractive
+ENV NVIDIA_VISIBLE_DEVICES all
+ENV NVIDIA_DRIVER_CAPABILITIES compute,utility,video
+
+# Copy ffmpeg
+#RUN mkdir /code
+WORKDIR /code
+ENTRYPOINT [ "ffmpeg" ]
+CMD [ "--help" ]
+
